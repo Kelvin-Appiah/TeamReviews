@@ -1,0 +1,46 @@
+.section {
+  max-width: 40rem;
+  background-color: rgb(255, 201, 176);
+  margin: 4rem auto;
+  box-shadow: 1px 1px 8px #000;
+  padding: 1.5rem;
+  font-family: monospace;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section img {
+  border-radius: 70%;
+}
+
+.name {
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+}
+
+.role {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgb(209, 66, 0);
+}
+
+.quote {
+  font-size: large;
+}
+
+.sideBtns {
+  margin: 0.8rem;
+}
+
+.leftBtn {
+  margin-right: 0.8rem;
+}
+
+.randomBtn {
+  padding: 0.4rem;
+  width: 6rem;
+}
